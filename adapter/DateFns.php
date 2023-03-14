@@ -1,7 +1,6 @@
 <?php
-require_once "RoitDateProtocol.php";
 
-class DateFns implements RoitDateProtocol
+class DateFns
 {
     private $date;
 
@@ -10,10 +9,10 @@ class DateFns implements RoitDateProtocol
         $this->date = $date;
     }
 
-    public function formatToDayMonthYear(): string
+    public function dayMonthYearFromDateFns(): string
     {
         $dateTime = new DateTime($this->date);
        
-        return $dateTime->format('d/m/Y');
+        return "DateFns: " . $dateTime->format('d/m/Y');
     }
 }

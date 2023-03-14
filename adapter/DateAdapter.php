@@ -1,8 +1,9 @@
 <?php
+require_once "RoitDateProtocol.php";
 require_once "Moment.php";
 require_once "DateFns.php";
 
-class DateAdapter
+class DateAdapter implements RoitDateProtocol
 {
     public $api;
 
@@ -14,6 +15,7 @@ class DateAdapter
   
     public function formatToDayMonthYear(): string
     {
-        return $this->api->formatToDayMonthYear();
+        return $this->api->dayMonthYearFromMoment();
+        // return $this->api->dayMonthYearFromDateFns();
     }
 }

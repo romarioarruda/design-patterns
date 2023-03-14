@@ -1,7 +1,6 @@
 <?php
-require_once "RoitDateProtocol.php";
 
-class Moment implements RoitDateProtocol
+class Moment
 {
     private $date;
 
@@ -10,10 +9,10 @@ class Moment implements RoitDateProtocol
         $this->date = $date;
     }
 
-    public function formatToDayMonthYear(): string
+    public function dayMonthYearFromMoment(): string
     {
         $dateTime = new DateTime($this->date);
        
-        return $dateTime->format('d-m-Y');
+        return "Moment: " . $dateTime->format('d-m-Y');
     }
 }
