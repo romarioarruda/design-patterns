@@ -1,47 +1,38 @@
 # design-patterns
 
-Estudos sobre Padrões de Projetos (Design Patterns)
+This repository is only to study and practice Design Patterns.
 
-**O que são Design Patterns?**
+*What are Design Patterns?**
 
-São técnicas ou soluções generalistas para problemas recorrentes durante o desenvolvimento de um software.
+Design Patterns are a set of techniques or general solutions to recorrent problems in software development area.
 
-É uma definição de alto nível de como um problema comum pode ser solucionado.
+It's a high definition level about how a common problem should solved.
 
-**Quais os benefícios de usar Design Patterns?**
+**Which are the Design Patterns benefits ?**
 
-- São modelos que já foram utilizados e testados anteriormente. (possível ganho de produtividade)
-- Organização e manutenção de projetos. (baseiam-se em baixo acoplamento entre as classes)
+- This models have been tested and applied before.
+- Project organization and maintenance.
 
-**Quais os tipos de Design Patterns?**
+**Which kind of Design Patterns are there ?**
 
-- Criacionais
+- Creational
     - Abstract Factory
     - Factory Method
     - Builder
     - Singleton
 
-- Estruturais
+- Structural
     - Adapter
     - Composite
     - Decorator
     - Façade
 
-- Comportamentais
+- Behavioral
    - Strategy
    - Dependency Injection
    - Observer
    - Chain of Responsibility ou Middleware
 
 
-Fonte: https://www.opus-software.com.br/design-patterns
 
 ##
-
-**Padrão Strategy**
-
-- [Video sobre Strategy](https://www.youtube.com/watch?v=WPdrnuSHAQs)
-
-**Adapter Pattern**
-
-- [Post sobre Adapter](https://medium.com/linkapi-solutions/design-pattern-adapter-uma-boa-solu%C3%A7%C3%A3o-para-lidar-com-c%C3%B3digos-legados-684854671392)
